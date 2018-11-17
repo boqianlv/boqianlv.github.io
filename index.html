@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="教务管理DEMO">
+    <meta name="author" content="BoqianLv">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Welcome to our system!</title>
+</head>
+<body>
+<div align="center">
+<h1>欢迎来到lbq教务系统</h1>
+<h5>当前版本 v0.1 All Rights Reserved</h5>
+------查找对应姓名的学生数据------
+<form action = "student/students_query.php" method="get">
+    姓名：<input type ="text" name="name"><br/>
+    <button type="submit">提交</button>
+</form>
+------添加学生数据------
+<form action="student/students_add.php" method="get">
+    姓名：<input type ="text" name="name"><br/><br/>
+    年龄：<input type="number" name="age"><br/><br/>
+    学院：<input type="text" name="dep"><br/><br/>
+    <button type="submit">添加</button>
+</form>
+</div>
+</body>
+</html>
